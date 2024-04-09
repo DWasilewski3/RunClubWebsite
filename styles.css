@@ -1,0 +1,73 @@
+/* Reset margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif
+}
+
+header {
+  background-color: green ;
+  padding: 20px 0;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.menu {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+.menu nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.menu nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.menu nav ul li a {
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 16px;
+}
+
+/* Add a hover effect for links */
+header nav ul li a:hover,
+.menu nav ul li a:hover {
+  background-color: lightblue;
+    color: #0056b3;
+    padding: 7px;
+    border-radius: 5px;
+ 
+}
+.introduction h1 {
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.introduction p, h4{
+  font-size:30px;
+  font-family: 'Times New Roman', Times, serif;
+}
